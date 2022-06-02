@@ -48,3 +48,8 @@ $('#btnLogout').on('click', function () {
     );
 })
 geiUserInfo()
+
+// 修改bug
+function change() {
+    $('#change').addClass('layui-this').next().removeClass('layui-this')
+}
